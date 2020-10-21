@@ -2,6 +2,9 @@ import math
 
 
 def EDistance(Instace1, Instance2, length):
+    '''
+    This funtion is used to calculate the eculidian distance
+    '''
     Distance = 0
     for i in range(length):
         Distance += pow((Instace1[i] - Instance2[i]), 2)
